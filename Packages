@@ -1,0 +1,110 @@
+Package: python3-hnbex-cli
+Architecture: all
+Version: 0.4.0-1
+Priority: optional
+Section: python
+Source: hnbex-cli
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 72
+Depends: python3:any (>= 3.3.2-2~)
+Filename: ./python3-hnbex-cli_0.4.0-1_all.deb
+Size: 18422
+MD5sum: 490c829b7823454dab84c9e4c32ead45
+SHA1: a847c019c2ecb854dd757a8087e0594b49124bef
+SHA256: 95aa131787a9117617cd5e9dede29ef8424d1493f0dd5bdad0886f48a4f14481
+SHA512: fe6c3fda3f0f3ceac2f6ce4e5d5a5669d143f50a7a592dcedd01af0ce28e9209e16d1fc372734ae214f5551c2deb86853b3d81a2550816d43e3859067f08a642
+Description: CLI tool for displaying exchange rates for Croatian Kuna
+ HNB Exchange Rate CLI
+ =====================
+ .
+ Displays exchange rates for Croatian Kuna (HRK) from the Croatian National Bank
+ (HNB). Data is fetched from http://hnbex.eu/. Thanks to `Good Code
+ <http://goodcode.io/>`_ for providing this service.
+ .
+ .
+ .. image:: https://img.shields.io/badge/author-%40ihabunek-blue.svg?maxAge=3600&style=flat-square
+    :target: https://mastodon.social/@ihabunek
+ .. image:: https://img.shields.io/github/license/ihabunek/hnbex-cli.svg?maxAge=3600&style=flat-square
+    :target: https://opensource.org/licenses/GPL-3.0
+ .. image:: https://img.shields.io/pypi/v/hnbex-cli.svg?maxAge=3600&style=flat-square
+    :target: https://pypi.python.org/pypi/hnbex-cli
+ .
+ Installation
+ ------------
+ .
+ Requires **Python 3.3** or greater.
+
+Package: python3-toot
+Architecture: all
+Version: 0.13.0-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 101
+Depends: python3-bs4, python3-future, python3-requests, python3:any (>= 3.3.2-2~)
+Filename: ./python3-toot_0.13.0-1_all.deb
+Size: 24064
+MD5sum: 60ecbb23e0fa7a222c25e7550d566acf
+SHA1: 7f8a75142437f0dd0306075e03b141292c421dab
+SHA256: a8a47cba16bbd3b79a96e167d6578e86c7b8aae849cbb1627276f3ca54beaeb7
+SHA512: 2b786154cb97bef674de9050bded0ad2992438be522fc4d430d032ec286c6894d0c06bab7642535890a7ad3759ed3f4dc67b29bb24b67e4f1579d94370673ed4
+Description: Interact with Mastodon social networks from the command line
+ ============================
+ Toot - a Mastodon CLI client
+ ============================
+ .
+ Interact with Mastodon social networks from the command line.
+ .
+ .. image:: https://img.shields.io/travis/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://travis-ci.org/ihabunek/toot
+ .. image:: https://img.shields.io/badge/author-%40ihabunek-blue.svg?maxAge=3600&style=flat-square
+    :target: https://mastodon.social/@ihabunek
+ .. image:: https://img.shields.io/github/license/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://opensource.org/licenses/MIT
+ .. image:: https://img.shields.io/pypi/v/toot.svg?maxAge=3600&style=flat-square
+    :target: https://pypi.python.org/pypi/toot
+ .
+ .
+ Installation
+ ------------
+ .
+ On Debian or Ubuntu running Python 3, download the .deb package from the
+
+Package: python3-toot
+Architecture: all
+Version: 0.14.0-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 102
+Depends: python3-bs4, python3-future, python3-requests, python3:any (>= 3.3.2-2~)
+Filename: ./python3-toot_0.14.0-1_all.deb
+Size: 24144
+MD5sum: 81ce52916480d3de1895da2c0a68a4bb
+SHA1: a3b10bd0ad8f94ed79496f8109c4aaa54a827b6e
+SHA256: 17153d047c2fd690a1a41e60093a37cd96da16a674f1e4067d448cb4a570ffaa
+SHA512: a42a152818530e81421b2e4609bc4901b53f5be7f6b0bcd592cbd73c03ec01db25f2ab79f88cb131d04907e62f7629743594dd62862d1f61462a3cad60d23245
+Description: Interact with Mastodon social networks from the command line
+ ============================
+ Toot - a Mastodon CLI client
+ ============================
+ .
+ Interact with Mastodon social networks from the command line.
+ .
+ .. image:: https://img.shields.io/travis/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://travis-ci.org/ihabunek/toot
+ .. image:: https://img.shields.io/badge/author-%40ihabunek-blue.svg?maxAge=3600&style=flat-square
+    :target: https://mastodon.social/@ihabunek
+ .. image:: https://img.shields.io/github/license/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://opensource.org/licenses/MIT
+ .. image:: https://img.shields.io/pypi/v/toot.svg?maxAge=3600&style=flat-square
+    :target: https://pypi.python.org/pypi/toot
+ .
+ .
+ Installation
+ ------------
+ .
+ From APT package repository
+
