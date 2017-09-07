@@ -1,4 +1,4 @@
-default: build
+default: clean build
 
 build:
 	# Generate Packages file
@@ -12,5 +12,5 @@ build:
 clean:
 	rm -f Packages Release InRelease Release.gpg
 
-sync:
+publish:
 	rsync --recursive --update --verbose . bigfish:web/bezdomni.net/packages
