@@ -13,4 +13,4 @@ clean:
 	rm -f Packages Release InRelease Release.gpg
 
 publish:
-	rsync --recursive --update --verbose . bigfish:web/bezdomni.net/packages
+	rsync --recursive --exclude=".git" --update --delete --verbose . bigfish:web/bezdomni.net/packages
