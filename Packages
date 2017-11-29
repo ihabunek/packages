@@ -1,3 +1,39 @@
+Package: python3-github-vanity
+Architecture: all
+Version: 0.1.1-1
+Priority: optional
+Section: python
+Source: github-vanity
+Maintainer: Ivan Habunek <ivan.habunek@gmail.com>
+Installed-Size: 36
+Depends: python3-git, python3:any (>= 3.3.2-2~)
+Filename: ./python3-github-vanity_0.1.1-1_all.deb
+Size: 6348
+MD5sum: 77ca781efcef511ac04639ddad2d88d9
+SHA1: 18079206a70ef4527002658cdbfb677498b26ac0
+SHA256: 7b1de0ff4e6e26434cec1c4089c6edde11eff598060c38cbf2e7b42986ae4389
+SHA512: e3465c7a0a21b6d19f0fbb2235b734096a96b62a69a176356244a1d2b0da61efcc4231f3ef9a0099ffef6fdbb82b5dcad916cc1f92967d2afd623b532691c6a8
+Description: Write to your GitHub activity chart
+ ======================
+ Vanity text for GitHub
+ ======================
+ .
+ Write to your GitHub activity chart.
+ .
+ Inspired by `Rockstar <https://github.com/avinassh/rockstar/>`_
+ .
+ .. image:: https://img.shields.io/pypi/v/github-vanity.svg?style=flat-square
+   :target: https://pypi.org/project/github-vanity/
+ .
+ .. image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+   :target: LICENSE
+ .
+ .. image:: https://img.shields.io/badge/author-%40ihabunek-blue.svg?style=flat-square
+   :target: https://twitter.com/ihabunek
+ .
+ Installation
+ ------------
+
 Package: python3-hnbex-cli
 Architecture: all
 Version: 0.4.0-1
