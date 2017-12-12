@@ -253,3 +253,40 @@ Description: Interact with Mastodon social networks from the command line
  .
  From APT package repository
 
+Package: python3-toot
+Architecture: all
+Version: 0.15.1-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 102
+Depends: python3-bs4, python3-future, python3-requests, python3:any (>= 3.3.2-2~)
+Filename: ./python3-toot_0.15.1-1_all.deb
+Size: 24308
+MD5sum: a1edbf373cca24b45998e103247ba88d
+SHA1: 1446a2e7a1f66045780cc2bb583dec79e6d601a8
+SHA256: 9c0aff0ce42c8b6bc1a967cc164dc68e9c905d3f76d875184c4779bfb2f54f19
+SHA512: c70994d9f6bfa2c4a83c5feb8c52269a6142f20ef337ab7c62881f388f9fca0a4885e8074295cbde77dff522df3c1bca54990213cd0452c91e1a63e068f94986
+Description: Interact with Mastodon social networks from the command line
+ ============================
+ Toot - a Mastodon CLI client
+ ============================
+ .
+ Interact with Mastodon social network from the command line.
+ .
+ .. image:: https://img.shields.io/travis/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://travis-ci.org/ihabunek/toot
+ .. image:: https://img.shields.io/badge/author-%40ihabunek-blue.svg?maxAge=3600&style=flat-square
+    :target: https://mastodon.social/@ihabunek
+ .. image:: https://img.shields.io/github/license/ihabunek/toot.svg?maxAge=3600&style=flat-square
+    :target: https://opensource.org/licenses/MIT
+ .. image:: https://img.shields.io/pypi/v/toot.svg?maxAge=3600&style=flat-square
+    :target: https://pypi.python.org/pypi/toot
+ .
+ .
+ Installation
+ ------------
+ .
+ From APT package repository
+
