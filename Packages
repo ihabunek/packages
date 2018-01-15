@@ -332,3 +332,45 @@ Description: Mastodon CLI client
  and blocking accounts and other actions.
  Contains an experimental curses application for reading the timeline.
 
+Package: python3-toot
+Architecture: all
+Version: 0.16.2-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 98
+Depends: python3-bs4, python3-requests, python3:any (>= 3.3.2-2~)
+Filename: ./python3-toot_0.16.2-1_all.deb
+Size: 23632
+MD5sum: e006d0aa2e976044ba2f27adb3eabdff
+SHA1: 72def8df7df2994fe06126108ea5c15cd338b2f4
+SHA256: 3c7b0cf1096e34fd96fe182d1b5a2d8e2e6e654bc1bc747bb30d71671a652ea2
+SHA512: 94716b292138392d4a9f6733f3329c42f20f1d183d869f29c01357514121fbf1aa1c12765ee6c538898f91c3276345b86c2858900433c905e45558966ee53779
+Description: Mastodon CLI client
+ toot is a commandline tool for interacting with Mastodon social networks.
+ Allows posting text and media to the timeline, searching, following, muting
+ and blocking accounts and other actions.
+ Contains an experimental curses application for reading the timeline.
+
+Package: python3-toot
+Architecture: all
+Version: 0.17.0-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 96
+Depends: python3-bs4, python3-requests, python3:any (>= 3.3.2-2~)
+Filename: ./python3-toot_0.17.0-1_all.deb
+Size: 23412
+MD5sum: 183eca8f03c8e571b86eb489db2501e2
+SHA1: 6a946b4e3673cc3ca447315edc03f3c71cdc40ce
+SHA256: 55c35aa0977ccc11576bfb14e40989c0a2900291642db203305102030e4a6789
+SHA512: 168cb2ce55bf3b0e3c6e133d6dd7a0854c8aad588edf5f1cdb9f59fcde612850a717682e688e56186f00eabcfa6dc04f410684c8db8620c63a27aa4dccbe8916
+Description: Mastodon CLI client
+ toot is a commandline tool for interacting with Mastodon social networks.
+ Allows posting text and media to the timeline, searching, following, muting
+ and blocking accounts and other actions.
+ Contains an experimental curses application for reading the timeline.
+
