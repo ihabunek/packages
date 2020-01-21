@@ -544,3 +544,25 @@ Description: Mastodon CLI client
  Allows posting text and media to the timeline, searching, following, muting
  and blocking accounts and other actions.
 
+Package: python3-toot
+Architecture: all
+Version: 0.25.0-1
+Priority: optional
+Section: python
+Source: toot
+Maintainer: Ivan Habunek <ivan@habunek.com>
+Installed-Size: 247
+Depends: python3-bs4, python3-requests, python3-urwid, python3-wcwidth, python3:any (>= 3.4~)
+Filename: ./python3-toot_0.25.0-1_all.deb
+Size: 48140
+MD5sum: 6351419e5f6c49fa10e28bcd7b3d7ec6
+SHA1: c8900267708d86f23a9d5c4a7b89215f8dcb83ee
+SHA256: c079f5ff31ffeef40b22466f7172c480986d7259cd75d55dd6a98b59bc5abe9a
+SHA512: a282a72a220e973b4ad31d3b6d9fb955fb8e28abf3a0f5e9819e58cac0bdc8470b89ccbd5aac0c4e5bbbcf5bcb0639b992e2fdf47c468e8990ceaca0f2e60482
+Description: Mastodon CLI client
+ Toot is a CLI and TUI tool for interacting with Mastodon instances from the
+ command line.
+ .
+ Allows posting text and media to the timeline, searching, following, muting
+ and blocking accounts and other actions.
+
